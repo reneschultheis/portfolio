@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a:hover {
+    @apply transition-all duration-200;
+}
+
+.test {
+    background-image: url('line.png');
+    background-position-x: calc(100% - 15px);
+    background-position-y: 15px;
+    background-blend-mode: color-dodge;
+    background-repeat: no-repeat;
+}
